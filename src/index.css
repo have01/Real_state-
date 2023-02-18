@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.header{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: max-content;
+  background-color: white;
+}
+.cardbox{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+.css-b62m3t-container{
+width: 120px;
+}
+.select__Contianer{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.css-1jqq78o-placeholder,.css-1jqq78o-placeholder,.css-1nmdiq5-menu{
+ font-weight: normal !important;
+  
+}
+.css-1u9des2-indicatorSeparator{
+  background-color: #fff !important;
+}
+.css-tj5bde-Svg{
+  background-color:none !important;
+}
+.react-select__menu{
+
+  font-weight: bold;
+}
+.css-13cymwt-control{
+  border: 1px solid  rgb(167 139 250) !important;
+  border-radius: 50px !important;
+}
+.css-1fdsijx-ValueContainer{
+
+  font-weight: bold;
+}
+.css-b62m3t-container{
+  width: 170px;
+}
+.css-t3ipsp-control{
+   border-radius: 50px !important;
+   border-color: none !important;
+}
+.css-t3ipsp-control:hover{
+  border-color: none !important;
+}
